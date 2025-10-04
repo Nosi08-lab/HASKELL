@@ -87,7 +87,6 @@ main = do
     putStrLn "\n=== Task 6: Int vs Integer ==="
     print smallNumber
     print bigNumber
-    -- print (2^64 :: Int)     -- Uncomment in GHCi to see overflow
     print (2^64 :: Integer)
     
     putStrLn "\n=== Task 7: Boolean Expressions ==="
